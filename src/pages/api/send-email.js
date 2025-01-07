@@ -18,7 +18,7 @@ export default async function handler(req, res) {
         attachments: [
           {
             filename: 'resume.pdf',
-            path: './public/resume.pdf', // Ensure this file exists in the public folder
+            path: 'https://dhananjay-one.vercel.app/resume.pdf', // Ensure this file exists in the public folder
           },
         ],
       });
